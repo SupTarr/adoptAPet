@@ -29,9 +29,7 @@ const PetDetailsPage = () => {
       {loading ? (
         <h3>Loading...</h3>
       ) : error ? (
-        <div>
-          {/* Redirect to /pet-details-not-found if there was an error! */}
-        </div>
+        <Navigate to="/pet-details-not-found" />
       ) : (
         <main>
           <Hero
