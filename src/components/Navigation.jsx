@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { getPetTypes } from "../../api/petfinder";
-import Logo from "../../assets/logo.svg";
-import Search from "../search";
+import { getPetTypes } from "../api/petfinder";
+import Logo from "../assets/logo.svg";
+import Search from "./Search";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {

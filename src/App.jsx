@@ -1,8 +1,8 @@
-import HomePage from "./pages/home";
-import SearchPage from "./pages/search";
-import PetDetailsPage from "./pages/detail";
-import PetDetailsNotFound from "./pages/petDetailsNotFound";
-import Root from "./components/root";
+import HomePage from "./pages/Home";
+import SearchPage from "./pages/Search";
+import PetDetailsPage from "./pages/Detail";
+import PetDetailsNotFound from "./pages/PetDetailsNotFound";
+import Root from "./components/Root";
 import {
   RouterProvider,
   createBrowserRouter,
