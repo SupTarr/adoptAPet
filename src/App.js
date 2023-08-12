@@ -13,7 +13,9 @@ import {
 const appRouter = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route index element={<HomePage />} />
+      <Route path="/" element={<HomePage />}>
+        <Route path=":type" element={<HomePage />} />
+      </Route>
       <Route path="/search" element={<SearchPage />} />
       <Route path="/:type/:id" element={<PetDetailsPage />} />
       <Route path="/:type/:id/not-found" element={<PetDetailsNotFound />} />
