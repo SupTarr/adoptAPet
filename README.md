@@ -1,4 +1,4 @@
-# Adopt a Pet!
+# Adopt a Pet
 
 ## About The Project
 
