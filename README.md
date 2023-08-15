@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project is part of `Learn React Router v6` on `Codecademy.` and I will be building a pet adoption website that allows users to view all the animals of a particular species and view the profiles of specific animals.
+This project is part of `Learn React Router v6` on `Codecademy`. and I will be building a pet adoption website that allows users to view all the animals of a particular species and view the profiles of specific animals.
 
 ## Technologies
 
